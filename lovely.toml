@@ -18,10 +18,3 @@ match_indent = true
 target = "game.lua"
 position = "prepend"
 sources = ["game_patch.lua"]
-
-[[patches]]
-[patches.module]
-source = "nfs-mount.lua"
-before = "main.lua"
-name = "nfs_mount"
-
