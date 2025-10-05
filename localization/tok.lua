@@ -1041,12 +1041,12 @@ return {
             },
             card_chips = {
                 text = {
-                    "kiwen mani {C:chips}+#1#{}",
+                    "kiwen mani la {C:chips}+#1#{}",
                 },
             },
             card_extra_chips = {
                 text = {
-                    "kiwen mani namako {C:chips}+#1#{}",
+                    "kiwen mani namako la {C:chips}+#1#{}",
                 },
             },
             challenge_locked = {
@@ -1377,36 +1377,39 @@ return {
         },
         Stake = {
             stake_black = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala pimeja",
+                text = {"ma esun li ken jo e jan pi {C:attention}tenpo ale{}"},
             },
             stake_blue = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala pi laso telo",
+                text = {
+                    "nanpa weka la {C:red}-1{}",
+                    "{s:0.6}ike a! tenpo kama la ni li ante{}"
+                },
             },
             stake_gold = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala mani",
+                text = {"ma esun li ken jo e jan pi {C:attention}mani tawa{}"},
             },
             stake_green = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala pi laso jelo",
+                text = {"utala mute la nanpa wile li mute mute"},
             },
             stake_orange = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala pi loje jelo",
+                text = {"ma esun li ken jo e jan pi {C:attention}tenpo lili{}"},
             },
             stake_purple = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala pi loje laso",
+                text = {"utala mute la nanpa wile li mute mute"},
             },
             stake_red = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala loje",
+                text = {"{C:attention}utala lili{} li pana ala e mani"},
             },
             stake_white = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "utala walo",
+                text = {"utala sin"},
             },
         },
         Tag = {
@@ -2391,17 +2394,18 @@ return {
             sh_3_touch = {"<TODO>"},
         },
         v_dictionary = {
-            a_chips = "kiwen mani la +#1#",
-            a_chips_minus = "kiwen mani la -#1#",
-            a_hands = "pali la +#1#",
-            a_handsize = "pali mute la +#1#",
-            a_handsize_minus = "pali mute la -#1#",
-            a_mult = "nanpa mute la +#1#",
-            a_mult_minus = "nanpa mute la -#1#",
+            a_chips = "+#1#",
+            a_chips_minus = "-#1#",
+            -- Gramatically incorrect but these need to be short
+            a_hands = "pali +#1#",
+            a_handsize = "pali +#1#",
+            a_handsize_minus = "pali -#1#",
+            a_mult = "nanpa +#1#",
+            a_mult_minus = "nanpa -#1#",
             a_remaining = "#1# lon",
             a_sold_tally = "#1#/#2#",
-            a_xmult = "nanpa mute la X#1#",
-            a_xmult_minus = "nanpa mute la -X#1#",
+            a_xmult = "nanpa x#1#",
+            a_xmult_minus = "nanpa -x#1#",
             ante_x_voucher = "LIPU NAMAKO PI UTALA #1#",
             challenges_completed = "#1#/#2#",
             completed = "#1#/#2#",
