@@ -31,6 +31,18 @@
 -- Edition - namako kule
 -- Enhancement - namako wawa
 -- Seal - namako sitelen
+-- +Chips - kiwen mani la +<number>
+-- -Chips - kiwen mani la -<number>
+-- +Mult - nanpa mute la +<number>
+-- -Mult - kiwen mani la -<number>
+-- xMult - nanpa mute la x<number>
+-- Chance-based - ken pi nanpa <numerator>/<denominator> la ...
+-- While held in hand... - ni li lon ma luka la ...
+-- At end of round... - tenpo pini utala la ...
+-- When scored - tenpo pali ni la
+-- When discarded - tenpo weka ni la
+
+
 return {
     descriptions = {
         Back = {
@@ -51,15 +63,15 @@ return {
             b_black = {
                 name = "kulupu pimeja",
                 text = {
-                    "poki jan li mute tan {C:attention}+#1#{},",
-                    "pali luka li lili tan {C:blue}-#2#{}",
+                    "poki jan la {C:attention}+#1#{},",
+                    "pali luka la {C:blue}-#2#{}",
                 },
             },
             b_blue = {
                 name = "kulupu laso telo",
                 text = {
                     "nanpa pi pali luka",
-                    "li mute tan {C:blue}+#1#{}",
+                    "la {C:blue}+#1#{}",
                 },
             },
             b_challenge = {
@@ -112,14 +124,14 @@ return {
                     "tenpo open la",
                     "jo e lipu namako {C:planet,T:v_telescope}#1#{}",
                     "",
-                    "poki moku li lili tan {C:red}#2#{}",
+                    "poki moku la {C:red}#2#{}",
                 },
             },
             b_painted = {
                 name = "kulupu kule",
                 text = {
-                    "poki luka li mute tan {C:attention}+#1#{},",
-                    "poki jan li lili tan {C:red}#2#{}",
+                    "poki luka la {C:attention}+#1#{},",
+                    "poki jan la {C:red}#2#{}",
                 },
             },
             b_plasma = {
@@ -127,14 +139,14 @@ return {
                 text = {
                     "tenpo pini nanpa la {C:blue}kiwen mani{}",
                     "li sama kipisi e {C:red}nanpa mute{},",
-                    "nanpa utala li mute tan {C:red}X#1#{}",
+                    "nanpa utala la {C:red}X#1#{}",
                 },
             },
             b_red = {
                 name = "kulupu loje",
                 text = {
                     "nanpa pi pali weka",
-                    "li mute tan {C:red}+#1#{}",
+                    "la {C:red}+#1#{}",
                 },
             },
             b_yellow = {
@@ -285,66 +297,85 @@ return {
             e_foil = {
                 name = "laso",
                 text = {
-                    "kiwen mani li mute tan {C:chips}+#1#{}",
+                    "kiwen mani la {C:chips}+#1#{}",
                 },
             },
             e_holo = {
                 name = "kule",
                 text = {
-                    "nanpa mute li mute tan {C:mult}+#1#{}",
+                    "nanpa mute la {C:mult}+#1#{}",
                 },
             },
             e_negative = {
                 name = "pimeja",
                 text = {
-                    "poki jan li mute tan {C:dark_edition}+#1#{}",
+                    "poki jan la {C:dark_edition}+#1#{}",
                 },
             },
             e_negative_consumable = {
                 name = "pimeja",
                 text = {
-                    "poki moku li mute tan {C:dark_edition}+#1#{}",
+                    "poki moku la {C:dark_edition}+#1#{}",
                 },
             },
             e_polychrome = {
                 name = "kule wawa",
                 text = {
-                    "nanpa mute li mute tan {X:mult,C:white} X#1# {}",
+                    "nanpa mute la {X:mult,C:white} X#1# {}",
                 },
             },
         },
         Enhanced = {
             m_bonus = {
                 name = "lipu namako",
-                text = {"<TODO>"},
+                text = {},
             },
             m_glass = {
                 name = "lipu lukin",
-                text = {"<TODO>"},
+                text = {
+                    "nanpa mute la {X:mult,C:white} X#1# {}",
+                    "ken {C:green}#2# lon #3#{} la",
+                    "lipu ni li pakala"
+                },
             },
             m_gold = {
                 name = "lipu mani",
-                text = {"<TODO>"},
+                text = {
+                    "tenpo pini utala anu",
+                    "ni li lon ma luka",
+                    "la o lanpan e mani {C:money}$#1#{}"
+                },
             },
             m_lucky = {
                 name = "lipu pi ken pona",
-                text = {"<TODO>"},
+                text = {
+                    "ken {C:green}#1# lon #3#{} la",
+                    "nanpa mute la {C:mult}+#2#{},",
+                    "kin ken {C:green}#1# lon #5#{} la",
+                    "o lanpan e mani {C:money}$#4#{}",
+                },
             },
             m_mult = {
                 name = "lipu pi nanpa mute",
-                text = {"<TODO>"},
+                text = {"nanpa mute la {C:mult}+#1#{},"},
             },
             m_steel = {
                 name = "lipu pi kiwen wawa",
-                text = {"<TODO>"},
+                text = {
+                    "ni li lon ma luka la",
+                    "nanpa mute la {X:mult,C:white} x#1# {}"
+                },
             },
             m_stone = {
                 name = "lipu kiwen",
-                text = {"<TODO>"},
+                text = {
+                    "kiwen mani la {C:chips}+#1#{}",
+                    "nanpa ala anu kule ala"
+                },
             },
             m_wild = {
                 name = "lipu ale",
-                text = {"<TODO>"},
+                text = {"ni li kule ale"},
             },
         },
         Joker = {
@@ -655,7 +686,7 @@ return {
             },
             j_joker = {
                 name = "jan",
-                text = {"nanpa mute li mute e {C:red}+#1#{}"}, -- TODO
+                text = {"nanpa mute la {C:red}+#1#{}"}, -- TODO
             },
             j_jolly = {
                 name = "jan pi pilin pona",
@@ -2380,23 +2411,23 @@ return {
             loyalty_inactive = "tenpo kama li #1#",
             ml_foil_desc = {
                 "laso",
-                "kiwen mani li mute tan +#1#",
+                "kiwen mani la +#1#",
             },
             ml_holo_desc = {
                 "kule",
-                "nanpa mani li mute tan +#1#",
+                "nanpa mani la +#1#",
             },
             ml_negative_consumable_desc = {
                 "pimeja",
-                "poki moku li mute tan +#1#",
+                "poki moku la +#1#",
             },
             ml_negative_desc = {
                 "pimeja",
-                "poki moku li mute tan +#1#",
+                "poki moku la +#1#",
             },
             ml_polychrome_desc = {
                 "kule wawa",
-                "poki moku li mute tan X#1#",
+                "poki moku la X#1#",
             },
             remaining_discard_money = "nanpa weka (mani $#1# tan wan)",
             remaining_hand_money = "nanpa pali (mani $#1# tan wan)",
