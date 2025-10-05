@@ -1,0 +1,27 @@
+[manifest]
+version = "1.0.0"
+priority = 0
+
+[[patches]]
+[patches.pattern]
+target = "game.lua"
+position = "before"
+pattern = "for _, v in ipairs(self.FONTS) do"
+payload = """
+_tokipona_init_language(self, "{{lovely_hack:patch_dir}}")
+"""
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.copy]
+target = "game.lua"
+position = "prepend"
+sources = ["game_patch.lua"]
+
+[[patches]]
+[patches.module]
+source = "nfs-mount.lua"
+before = "main.lua"
+name = "nfs_mount"
+
