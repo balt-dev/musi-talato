@@ -65,7 +65,7 @@ return {
             },
             b_challenge = {
                 name = "kulupu utala",
-                text = {nil},
+                text = nil, -- TODO
             },
             b_checkered = {
                 name = "kulupu loje anu pimeja",
@@ -157,123 +157,123 @@ return {
         Blind = {
             bl_arm = {
                 name = "utala noka",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_big = {
                 name = "utala suli",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_club = {
                 name = "utala pi ilo utala",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_eye = {
                 name = "utala lukin",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_final_acorn = {
                 name = "kasi jelo",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_final_bell = {
                 name = "ilo kute laso",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_final_heart = {
                 name = "sijelo loje",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_final_leaf = {
                 name = "kasi loje",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_final_vessel = {
                 name = "poki pi loje laso",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_fish = {
                 name = "utala kala",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_flint = {
                 name = "utala kiwen",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_goad = {
                 name = "utala palisa",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_head = {
                 name = "utala lawa",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_hook = {
                 name = "utala alasa",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_house = {
                 name = "utala tomo",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_manacle = {
                 name = "utala ken ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_mark = {
                 name = "utala sitelen",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_mouth = {
                 name = "utala uta",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_needle = {
                 name = "utala palisa lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_ox = {
                 name = "utala soweli",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_pillar = {
                 name = "utala pi tomo palisa",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_plant = {
                 name = "utala kasi",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_psychic = {
                 name = "utala usawi",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_serpent = {
                 name = "utala akesi",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_small = {
                 name = "utala lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_tooth = {
                 name = "utala pi kiwen uta",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_wall = {
                 name = "utala pi tomo suli",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_water = {
                 name = "utala telo",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_wheel = {
                 name = "utala sike",
-                text = {nil},
+                text = nil, -- TODO
             },
             bl_window = {
                 name = "utala pi kiwen lukin",
-                text = {nil},
+                text = nil, -- TODO
             },
         },
         Edition = {
@@ -317,404 +317,404 @@ return {
         Enhanced = {
             m_bonus = {
                 name = "lipu namako",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_glass = {
                 name = "lipu lukin",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_gold = {
                 name = "lipu mani",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_lucky = {
                 name = "lipu pi ken pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_mult = {
                 name = "lipu pi nanpa mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_steel = {
                 name = "lipu pi kiwen wawa",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_stone = {
                 name = "lipu kiwen",
-                text = {nil},
+                text = nil, -- TODO
             },
             m_wild = {
                 name = "lipu ale",
-                text = {nil},
+                text = nil, -- TODO
             },
         },
         Joker = {
             j_8_ball = {
                 name = "sike pi nanpa 8",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_abstract = {
                 name = "ijo jan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_acrobat = {
                 name = "jan pi tawa monsuta",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_ancient = {
                 name = "jan majuna mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_arrowhead = {
                 name = "lawa pi palisa alasa",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_astronomer = {
                 name = "jan pi pali ma suno",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_banner = {
                 name = "len sitelen",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_baron = {
                 name = "jan wawa majuna",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_baseball = {
                 name = "lipu pi musi Baseball",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_blackboard = {
                 name = "supa pimeja",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_bloodstone = {
                 name = "kiwen pi telo sijelo",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_blue_joker = {
                 name = "jan pi laso telo",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_blueprint = {
                 name = "lipu pi laso telo",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_bootstraps = {
                 name = "linja pi len noka",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_brainstorm = {
                 name = "isipin",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_bull = {
                 name = "soweli mani",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_burglar = {
                 name = "jan pi pali lanpan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_burnt = {
                 name = "jan pi pakala seli",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_business = {
                 name = "lipu pali",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_caino = {
                 name = "jan Canio",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_campfire = {
                 name = "seli pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_card_sharp = {
                 name = "jan pi lipu sona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_cartomancer = {
                 name = "jan pi wawa lipu",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_castle = {
                 name = "tomo suli",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_cavendish = {
                 name = "kili jelo wawa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_ceremonial = {
                 name = "utala pi nasin sewi",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_certificate = {
                 name = "lipu lon",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_chaos = {
                 name = "jan Chaos",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_chicot = {
                 name = "jan Chicot",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_clever = {
                 name = "jan pi sona sona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_cloud_9 = {
                 name = "ko pi nanpa 9",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_constellation = {
                 name = "kulupu suno",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_crafty = {
                 name = "jan pi sona pali",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_crazy = {
                 name = "jan pi lawa nasa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_credit_card = {
                 name = "lipu mani pi tenpo kama",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_delayed_grat = {
                 name = "pona pi tenpo kama",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_devious = {
                 name = "jan pi sona mute ike",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_diet_cola = {
                 name = "telo pi suwi ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_dna = {
                 name = "kipisi sijelo",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_drivers_license = {
                 name = "lipu pi ken tawa",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_droll = {
                 name = "jan pi suwi pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_drunkard = {
                 name = "jan pi telo nasa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_duo = {
                 name = "kulupu tu",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_dusk = {
                 name = "tenpo pini",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_egg = {
                 name = "moku waso",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_erosion = {
                 name = "pakala pi telo anu kiwen",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_even_steven = {
                 name = "jan tu Steven",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_faceless = {
                 name = "jan pi lawa ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_family = {
                 name = "kulupu sama",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_fibonacci = {
                 name = "nanpa Fibonacci",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_flash = {
                 name = "lipu sona pi tenpo lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_flower_pot = {
                 name = "poki kasi",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_fortune_teller = {
                 name = "jan sona pi tenpo kama",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_four_fingers = {
                 name = "luka pi nanpa tu tu",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_gift = {
                 name = "lipu pana mani",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_glass = {
                 name = "jan pi kiwen lukin",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_gluttenous_joker = {
                 name = "jan pi moku mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_golden = {
                 name = "jan mani",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_greedy_joker = {
                 name = "jan pi wile mani",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_green_joker = {
                 name = "jan pi laso kasi",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_gros_michel = {
                 name = "moku jelo",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_hack = {
                 name = "jan pi sona lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_half = {
                 name = "kipisi jan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_hallucination = {
                 name = "ijo pi lon ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_hanging_chad = {
                 name = "lipu pi pakala lili",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_hiker = {
                 name = "jan pi tawa sewi",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_hit_the_road = {
                 name = "o tawa",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_hologram = {
                 name = "sitelen suno jan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_ice_cream = {
                 name = "moku lete",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_idol = {
                 name = "ijo wawa",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_invisible = {
                 name = "jan pi lukin ala",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_joker = {
                 name = "jan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_jolly = {
                 name = "jan pi pilin pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_juggler = {
                 name = "jan pi pali luka pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_loyalty_card = {
                 name = "lipu pi kama mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_luchador = {
                 name = "jan pi sijelo wawa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_lucky_cat = {
                 name = "soweli pi ken pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_lusty_joker = {
                 name = "jan unpa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_mad = {
                 name = "jan pi lawa ike",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_madness = {
                 name = "lawa pakala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_mail = {
                 name = "lipu pi mani kama",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_marble = {
                 name = "jan pi kiwen walo",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_matador = {
                 name = "jan pi soweli monsuta",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_merry_andy = {
                 name = "jan Andy pi pilin pona",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_midas_mask = {
                 name = "ilo lawa mani",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_mime = {
                 name = "jan pi toki ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_misprint = {
                 name = "pakala",
@@ -722,291 +722,291 @@ return {
             },
             j_mr_bones = {
                 name = "jan pi moli ala",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_mystic_summit = {
                 name = "ma nasa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_obelisk = {
                 name = "tomo suli",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_odd_todd = {
                 name = "jan wan Todd",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_onyx_agate = {
                 name = "kiwen Onyx",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_oops = {
                 name = "pakala! nanpa 6 taso ala",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_order = {
                 name = "kulupu nanpa",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_pareidolia = {
                 name = "lukin lawa tan tawa lon ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_perkeo = {
                 name = "jan Perkeo",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_photograph = {
                 name = "sitelen jan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_popcorn = {
                 name = "moku pi kipisi pan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_raised_fist = {
                 name = "luka sewi",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_ramen = {
                 name = "moku linja",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_red_card = {
                 name = "liou loje",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_reserved_parking = {
                 name = "ma pi lanpan tenpo pini",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_ride_the_bus = {
                 name = "o pali e ilo tawa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_riff_raff = {
                 name = "jan pi sona ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_ring_master = {
                 name = "jan pi pali lukin",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_rocket = {
                 name = "ilo pi sewi mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_rough_gem = {
                 name = "kiwen kiki",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_runner = {
                 name = "jan pi tawa tenpo lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_satellite = {
                 name = "ilo pi sike ma",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_scary_face = {
                 name = "lawa monsuta",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_scholar = {
                 name = "jan sona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_seance = {
                 name = "nasin nasa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_seeing_double = {
                 name = "lukin tu",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_selzer = {
                 name = "telo ko",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_shoot_the_moon = {
                 name = "o alasa e mun",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_shortcut = {
                 name = "nasin pi tenpo lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_sixth_sense = {
                 name = "pilin namako",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_sly = {
                 name = "jan pi sona pimeja",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_smeared = {
                 name = "jan pi pakala kule",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_smiley = {
                 name = "lawa pona",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_sock_and_buskin = {
                 name = "lawa tu",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_space = {
                 name = "jan pi ma sewi mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_splash = {
                 name = "kalama telo",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_square = {
                 name = "jan leko",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_steel_joker = {
                 name = "jan pi kiwen wawa",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_stencil = {
                 name = "lipu pi pali jan",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_stone = {
                 name = "jan kiwen",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_stuntman = {
                 name = "jan pi tawa mute",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_supernova = {
                 name = "kalama mute mute mute",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_superposition = {
                 name = "ma pi sona ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_swashbuckler = {
                 name = "jan pi mani ike",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_throwback = {
                 name = "tenpo pini",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_ticket = {
                 name = "lipu pi mani mute",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_to_the_moon = {
                 name = "tawa mun",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_todo_list = {
                 name = "lipu pi sona pali",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_trading = {
                 name = "lipu musi",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_tribe = {
                 name = "kulupu utala",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_triboulet = {
                 name = "jan Triboulet",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_trio = {
                 name = "kulupu pi nanpa tu wan",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_troubadour = {
                 name = "jan pi pali pilin pona",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_trousers = {
                 name = "len noka sin",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_turtle_bean = {
                 name = "moku lili",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_vagabond = {
                 name = "jan pi mani ala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_vampire = {
                 name = "jan pi moku telo sijelo",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_walkie_talkie = {
                 name = "ilo toki",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_wee = {
                 name = "jan lili",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_wily = {
                 name = "jan pi sona nasin",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_wrathful_joker = {
                 name = "jan pi pilin pakala",
-                text = {nil},
+                text = nil, -- TODO
             },
             j_yorick = {
                 name = "jan Yorick",
-                text = {nil},
-                unlock = {nil},
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             j_zany = {
                 name = "jan pi pali nasa",
-                text = {nil},
+                text = nil, -- TODO
             },
         },
         Other = {
             black_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             blue_seal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             blue_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             card_chips = {
                 text = {
@@ -1019,8 +1019,8 @@ return {
                 },
             },
             challenge_locked = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             debuffed_default = {
                 name = "wawa ala",
@@ -1035,120 +1035,120 @@ return {
                 },
             },
             deck_locked_discover = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             deck_locked_stake = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             deck_locked_win = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             demo_locked = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             demo_shop_locked = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             eternal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             gold_seal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             gold_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             green_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             joker_locked_legendary = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             locked = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             orange_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_arcana_jumbo = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_arcana_mega = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_arcana_normal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_buffoon_jumbo = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_buffoon_mega = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_buffoon_normal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_celestial_jumbo = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_celestial_mega = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_celestial_normal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_spectral_jumbo = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_spectral_mega = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_spectral_normal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_standard_jumbo = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_standard_mega = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             p_standard_normal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             perishable = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             pinned_left = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             playing_card = {
                 text = {
@@ -1156,700 +1156,700 @@ return {
                 },
             },
             purple_seal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             purple_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             red_seal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             red_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             remove_negative = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             rental = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_booster = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_edition = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_joker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_planet = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_spectral = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_tag = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_tarot = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             undiscovered_voucher = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             white_sticker = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             wip_locked = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
         Planet = {
             c_ceres = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_earth = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_eris = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_jupiter = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_mars = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_mercury = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_neptune = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_planet_x = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_pluto = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_saturn = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_uranus = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_venus = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
         Spectral = {
             c_ankh = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_aura = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_black_hole = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_cryptid = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_deja_vu = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_ectoplasm = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_familiar = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_grim = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_hex = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_immolate = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_incantation = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_medium = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_ouija = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_sigil = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_soul = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_talisman = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_trance = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_wraith = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
         Stake = {
             stake_black = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_blue = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_gold = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_green = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_orange = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_purple = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_red = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             stake_white = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
         Tag = {
             tag_boss = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_buffoon = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_charm = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_coupon = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_d_six = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_double = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_economy = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_ethereal = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_foil = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_garbage = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_handy = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_holo = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_investment = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_juggle = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_meteor = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_negative = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_orbital = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_polychrome = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_rare = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_skip = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_standard = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_top_up = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_uncommon = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             tag_voucher = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
         Tarot = {
             c_chariot = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_death = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_devil = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_emperor = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_empress = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_fool = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_hanged_man = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_heirophant = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_hermit = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_high_priestess = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_judgement = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_justice = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_lovers = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_magician = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_moon = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_star = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_strength = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_sun = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_temperance = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_tower = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_wheel_of_fortune = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             c_world = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
         Voucher = {
             v_antimatter = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_blank = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_clearance_sale = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_crystal_ball = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_directors_cut = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_glow_up = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_grabber = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_hieroglyph = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_hone = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_illusion = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_liquidation = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_magic_trick = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_money_tree = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_nacho_tong = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_observatory = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_omen_globe = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_overstock_norm = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_overstock_plus = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_paint_brush = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_palette = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_petroglyph = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_planet_merchant = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_planet_tycoon = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_recyclomancy = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_reroll_glut = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_reroll_surplus = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_retcon = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_seed_money = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_tarot_merchant = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_tarot_tycoon = {
-                name = nil,
-                text = {nil},
-                unlock = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
+                unlock = nil, -- TODO
             },
             v_telescope = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
             v_wasteful = {
-                name = nil,
-                text = {nil},
+                name = nil, -- TODO
+                text = nil, -- TODO
             },
         },
     },
     misc = {
         achievement_descriptions = {
-            _100000k = nil,
-            _1000k = nil,
-            _10k = nil,
-            ante_up = nil,
-            ante_upper = nil,
-            astronomy = nil,
-            big_hands = nil,
-            card_discarder = nil,
-            card_player = nil,
-            cartomancy = nil,
-            clairvoyance = nil,
-            completionist = nil,
-            completionist_plus = nil,
-            completionist_plus_plus = nil,
-            extreme_couponer = nil,
-            flushed = nil,
-            heads_up = nil,
-            high_stakes = nil,
-            legendary = nil,
-            low_stakes = nil,
-            mid_stakes = nil,
-            nest_egg = nil,
-            retrograde = nil,
-            roi = nil,
-            royale = nil,
-            rule_bender = nil,
-            rule_breaker = nil,
-            shattered = nil,
-            speedrunner = nil,
-            tiny_hands = nil,
-            you_get_what_you_get = nil,
+            _100000k = nil, -- TODO
+            _1000k = nil, -- TODO
+            _10k = nil, -- TODO
+            ante_up = nil, -- TODO
+            ante_upper = nil, -- TODO
+            astronomy = nil, -- TODO
+            big_hands = nil, -- TODO
+            card_discarder = nil, -- TODO
+            card_player = nil, -- TODO
+            cartomancy = nil, -- TODO
+            clairvoyance = nil, -- TODO
+            completionist = nil, -- TODO
+            completionist_plus = nil, -- TODO
+            completionist_plus_plus = nil, -- TODO
+            extreme_couponer = nil, -- TODO
+            flushed = nil, -- TODO
+            heads_up = nil, -- TODO
+            high_stakes = nil, -- TODO
+            legendary = nil, -- TODO
+            low_stakes = nil, -- TODO
+            mid_stakes = nil, -- TODO
+            nest_egg = nil, -- TODO
+            retrograde = nil, -- TODO
+            roi = nil, -- TODO
+            royale = nil, -- TODO
+            rule_bender = nil, -- TODO
+            rule_breaker = nil, -- TODO
+            shattered = nil, -- TODO
+            speedrunner = nil, -- TODO
+            tiny_hands = nil, -- TODO
+            you_get_what_you_get = nil, -- TODO
         },
         achievement_names = {
-            _100000k = nil,
-            _1000k = nil,
-            _10k = nil,
-            ante_up = nil,
-            ante_upper = nil,
-            astronomy = nil,
-            big_hands = nil,
-            card_discarder = nil,
-            card_player = nil,
-            cartomancy = nil,
-            clairvoyance = nil,
-            completionist = nil,
-            completionist_plus = nil,
-            completionist_plus_plus = nil,
-            extreme_couponer = nil,
-            flushed = nil,
-            heads_up = nil,
-            high_stakes = nil,
-            legendary = nil,
-            low_stakes = nil,
-            mid_stakes = nil,
-            nest_egg = nil,
-            retrograde = nil,
-            roi = nil,
-            royale = nil,
-            rule_bender = nil,
-            rule_breaker = nil,
-            shattered = nil,
-            speedrunner = nil,
-            tiny_hands = nil,
-            you_get_what_you_get = nil,
+            _100000k = nil, -- TODO
+            _1000k = nil, -- TODO
+            _10k = nil, -- TODO
+            ante_up = nil, -- TODO
+            ante_upper = nil, -- TODO
+            astronomy = nil, -- TODO
+            big_hands = nil, -- TODO
+            card_discarder = nil, -- TODO
+            card_player = nil, -- TODO
+            cartomancy = nil, -- TODO
+            clairvoyance = nil, -- TODO
+            completionist = nil, -- TODO
+            completionist_plus = nil, -- TODO
+            completionist_plus_plus = nil, -- TODO
+            extreme_couponer = nil, -- TODO
+            flushed = nil, -- TODO
+            heads_up = nil, -- TODO
+            high_stakes = nil, -- TODO
+            legendary = nil, -- TODO
+            low_stakes = nil, -- TODO
+            mid_stakes = nil, -- TODO
+            nest_egg = nil, -- TODO
+            retrograde = nil, -- TODO
+            roi = nil, -- TODO
+            royale = nil, -- TODO
+            rule_bender = nil, -- TODO
+            rule_breaker = nil, -- TODO
+            shattered = nil, -- TODO
+            speedrunner = nil, -- TODO
+            tiny_hands = nil, -- TODO
+            you_get_what_you_get = nil, -- TODO
         },
         blind_states = {
-            Current = nil,
-            Defeated = nil,
-            Select = nil,
-            Selected = nil,
-            Skipped = nil,
-            Upcoming = nil,
+            Current = nil, -- TODO
+            Defeated = nil, -- TODO
+            Select = nil, -- TODO
+            Selected = nil, -- TODO
+            Skipped = nil, -- TODO
+            Upcoming = nil, -- TODO
         },
         challenge_names = {
-            c_blast_off_1 = nil,
-            c_bram_poker_1 = nil,
-            c_city_1 = nil,
-            c_cruelty_1 = nil,
-            c_double_nothing_1 = nil,
-            c_five_card_1 = nil,
-            c_fragile_1 = nil,
-            c_golden_needle_1 = nil,
-            c_inflation_1 = nil,
-            c_jokerless_1 = nil,
-            c_knife_1 = nil,
-            c_luxury_1 = nil,
-            c_mad_world_1 = nil,
-            c_medusa_1 = nil,
-            c_monolith_1 = nil,
-            c_non_perishable_1 = nil,
-            c_omelette_1 = nil,
-            c_rich_1 = nil,
-            c_typecast_1 = nil,
-            c_xray_1 = nil,
+            c_blast_off_1 = nil, -- TODO
+            c_bram_poker_1 = nil, -- TODO
+            c_city_1 = nil, -- TODO
+            c_cruelty_1 = nil, -- TODO
+            c_double_nothing_1 = nil, -- TODO
+            c_five_card_1 = nil, -- TODO
+            c_fragile_1 = nil, -- TODO
+            c_golden_needle_1 = nil, -- TODO
+            c_inflation_1 = nil, -- TODO
+            c_jokerless_1 = nil, -- TODO
+            c_knife_1 = nil, -- TODO
+            c_luxury_1 = nil, -- TODO
+            c_mad_world_1 = nil, -- TODO
+            c_medusa_1 = nil, -- TODO
+            c_monolith_1 = nil, -- TODO
+            c_non_perishable_1 = nil, -- TODO
+            c_omelette_1 = nil, -- TODO
+            c_rich_1 = nil, -- TODO
+            c_typecast_1 = nil, -- TODO
+            c_xray_1 = nil, -- TODO
         },
         collabs = {
             Clubs = {
-                ["1"] = nil,
-                ["2"] = nil,
-                ["3"] = nil,
-                ["4"] = nil,
-                ["5"] = nil,
-                ["6"] = nil,
-                ["7"] = nil,
+                ["1"] = nil, -- TODO
+                ["2"] = nil, -- TODO
+                ["3"] = nil, -- TODO
+                ["4"] = nil, -- TODO
+                ["5"] = nil, -- TODO
+                ["6"] = nil, -- TODO
+                ["7"] = nil, -- TODO
             },
             Diamonds = {
-                ["1"] = nil,
-                ["2"] = nil,
-                ["3"] = nil,
-                ["4"] = nil,
-                ["5"] = nil,
-                ["6"] = nil,
-                ["7"] = nil,
+                ["1"] = nil, -- TODO
+                ["2"] = nil, -- TODO
+                ["3"] = nil, -- TODO
+                ["4"] = nil, -- TODO
+                ["5"] = nil, -- TODO
+                ["6"] = nil, -- TODO
+                ["7"] = nil, -- TODO
             },
             Hearts = {
-                ["1"] = nil,
-                ["2"] = nil,
-                ["3"] = nil,
-                ["4"] = nil,
-                ["5"] = nil,
-                ["6"] = nil,
-                ["7"] = nil,
+                ["1"] = nil, -- TODO
+                ["2"] = nil, -- TODO
+                ["3"] = nil, -- TODO
+                ["4"] = nil, -- TODO
+                ["5"] = nil, -- TODO
+                ["6"] = nil, -- TODO
+                ["7"] = nil, -- TODO
             },
             Spades = {
-                ["1"] = nil,
-                ["2"] = nil,
-                ["3"] = nil,
-                ["4"] = nil,
-                ["5"] = nil,
-                ["6"] = nil,
-                ["7"] = nil,
+                ["1"] = nil, -- TODO
+                ["2"] = nil, -- TODO
+                ["3"] = nil, -- TODO
+                ["4"] = nil, -- TODO
+                ["5"] = nil, -- TODO
+                ["6"] = nil, -- TODO
+                ["7"] = nil, -- TODO
             },
         },
         dictionary = {
-            ["$"] = nil,
+            ["$"] = nil, -- TODO
             b_FAQ = "sona",
             b_and_use = "anu pali",
             b_back = "pini",
@@ -1887,7 +1887,7 @@ return {
             b_next = ">",
             b_next_round_1 = "utala",
             b_next_round_2 = "kama",
-            b_open = nil,
+            b_open = nil, -- TODO
             b_options = "ante",
             b_options_cap = "ANTE",
             b_planet_cards = "lipu suno",
@@ -1951,7 +1951,7 @@ return {
             b_unlock_all = "ken ale",
             b_use = "PALI",
             b_vouchers = "namako",
-            b_wishlist = nil,
+            b_wishlist = nil, -- TODO
             k_aces = "nanpa wan",
             k_achievement = "pali pona",
             k_achievements_disabled = "pali pona li weka",
@@ -2067,7 +2067,7 @@ return {
             k_trophy = "ijo pona",
             k_uncommon = "wawa suli",
             k_undisovered = "sona ala",
-            k_unknown = nil,
+            k_unknown = nil, -- TODO
             k_unlocked_ex = "sona",
             k_upgrade_ex = "wawa mute",
             k_val_up = "mani mute",
@@ -2095,12 +2095,12 @@ return {
                 "sina wile pali e ilo musi",
                 "o linluwi e ilo musi",
             },
-            ml_crash_report_info = {nil},
-            ml_demo_thanks_message = {nil},
+            ml_crash_report_info = nil, -- TODO
+            ml_demo_thanks_message = nil, -- TODO
             ml_disabled_seed = {
                 "sona ale anu ijo pona ali li weka",
             },
-            ml_edition_seal_enhancement_explanation = {nil},
+            ml_edition_seal_enhancement_explanation = nil, -- TODO
             ml_eternal = {
                 "tenpo ale",
                 "",
@@ -2111,7 +2111,7 @@ return {
                 "",
                 "",
             },
-            ml_offline_message = {nil},
+            ml_offline_message = nil, -- TODO
             ml_open_target = {
                 "open",
             },
@@ -2137,8 +2137,8 @@ return {
                 "ala",
                 "wile",
             },
-            ml_unlock_all_explanation = {nil},
-            ml_unlock_all_trophies = {nil},
+            ml_unlock_all_explanation = nil, -- TODO
+            ml_unlock_all_trophies = nil, -- TODO
             ml_vsync_opt = {
                 "wile e ilo VSync",
                 "wile ala e ilo VSync",
@@ -2148,63 +2148,63 @@ return {
                 "sitelen ale",
                 "sitelen ale pona",
             },
-            ph_1_level = nil,
-            ph_4_7_of_clubs = nil,
-            ph_alert_debuff_confirm = nil,
+            ph_1_level = nil, -- TODO
+            ph_4_7_of_clubs = nil, -- TODO
+            ph_alert_debuff_confirm = nil, -- TODO
             ph_all_poker_hand = "luka ale",
             ph_blind_reward = "mani: ",
             ph_blind_score_at_least = "nanpa li mute e:",
             ph_boss_disabled = "weka!",
             ph_choose_blind_1 = "pali utala",
-            ph_choose_blind_2 = nil,
+            ph_choose_blind_2 = nil, -- TODO
             ph_click_confirm = "pali sina la lon",
-            ph_deck_preview_effective = nil,
+            ph_deck_preview_effective = nil, -- TODO
             ph_deck_preview_stones = "kiwen",
             ph_defeat_the_boss = "o moli utala",
             ph_defeat_this_blind_1 = "o moli ni",
             ph_defeat_this_blind_2 = "la sona ni",
-            ph_demo_thanks_1 = nil,
-            ph_demo_thanks_2 = nil,
-            ph_display_stickers = nil,
+            ph_demo_thanks_1 = nil, -- TODO
+            ph_demo_thanks_2 = nil, -- TODO
+            ph_display_stickers = nil, -- TODO
             ph_game_over = "MOLI",
             ph_improve_run = "o esun pona a!",
-            ph_most_played = nil,
-            ph_mr_bones = nil,
+            ph_most_played = nil, -- TODO
+            ph_mr_bones = nil, -- TODO
             ph_no_boss_active = "utala li ala",
             ph_no_vouchers = "lipu namako li ale",
             ph_score_at_least = "nanpa li mute e:",
-            ph_score_cards_discarded = nil,
-            ph_score_cards_played = nil,
-            ph_score_cards_purchased = nil,
-            ph_score_furthest_ante = nil,
-            ph_score_furthest_round = nil,
-            ph_score_hand = nil,
-            ph_score_new_collection = nil,
-            ph_score_poker_hand = nil,
-            ph_score_times_rerolled = nil,
+            ph_score_cards_discarded = nil, -- TODO
+            ph_score_cards_played = nil, -- TODO
+            ph_score_cards_purchased = nil, -- TODO
+            ph_score_furthest_ante = nil, -- TODO
+            ph_score_furthest_round = nil, -- TODO
+            ph_score_hand = nil, -- TODO
+            ph_score_new_collection = nil, -- TODO
+            ph_score_poker_hand = nil, -- TODO
+            ph_score_times_rerolled = nil, -- TODO
             ph_select_challenge = "pali utala",
             ph_sneak_peek = "lukin",
-            ph_stat_consumable = nil,
-            ph_stat_joker = nil,
-            ph_stat_voucher = nil,
+            ph_stat_consumable = nil, -- TODO
+            ph_stat_joker = nil, -- TODO
+            ph_stat_voucher = nil, -- TODO
             ph_unscored_hand = "luka ni li wawa ala",
             ph_up_ante_1 = "pana wawa tawa utala",
-            ph_up_ante_2 = nil,
-            ph_up_ante_3 = nil,
+            ph_up_ante_2 = nil, -- TODO
+            ph_up_ante_3 = nil, -- TODO
             ph_vouchers_redeemed = "lipu namako pi musi ni",
             ph_you_win = "PONA!",
             ph_you_win_demo = "PONA LILI!",
         },
         high_scores = {
-            boss_streak = nil,
-            collection = nil,
-            current_streak = nil,
-            furthest_ante = nil,
-            furthest_round = nil,
-            hand = nil,
-            most_money = nil,
-            poker_hand = nil,
-            win_streak = nil,
+            boss_streak = nil, -- TODO
+            collection = nil, -- TODO
+            current_streak = nil, -- TODO
+            furthest_ante = nil, -- TODO
+            furthest_round = nil, -- TODO
+            hand = nil, -- TODO
+            most_money = nil, -- TODO
+            poker_hand = nil, -- TODO
+            win_streak = nil, -- TODO
         },
         labels = {
             blue_seal = "sitelen laso",
@@ -2230,54 +2230,54 @@ return {
             voucher = "lipu namako",
         },
         poker_hand_descriptions = {
-            ["Five of a Kind"] = {nil},
-            Flush = {nil},
-            ["Flush Five"] = {nil},
-            ["Flush House"] = {nil},
-            ["Four of a Kind"] = {nil},
-            ["Full House"] = {nil},
-            ["High Card"] = {nil},
-            Pair = {nil},
-            ["Royal Flush"] = {nil},
-            Straight = {nil},
-            ["Straight Flush"] = {nil},
-            ["Three of a Kind"] = {nil},
-            ["Two Pair"] = {nil},
+            ["Five of a Kind"] = nil, -- TODO
+            Flush = nil, -- TODO
+            ["Flush Five"] = nil, -- TODO
+            ["Flush House"] = nil, -- TODO
+            ["Four of a Kind"] = nil, -- TODO
+            ["Full House"] = nil, -- TODO
+            ["High Card"] = nil, -- TODO
+            Pair = nil, -- TODO
+            ["Royal Flush"] = nil, -- TODO
+            Straight = nil, -- TODO
+            ["Straight Flush"] = nil, -- TODO
+            ["Three of a Kind"] = nil, -- TODO
+            ["Two Pair"] = nil, -- TODO
         },
         poker_hands = {
-            ["Five of a Kind"] = nil,
-            Flush = nil,
-            ["Flush Five"] = nil,
-            ["Flush House"] = nil,
-            ["Four of a Kind"] = nil,
-            ["Full House"] = nil,
-            ["High Card"] = nil,
-            Pair = nil,
-            ["Royal Flush"] = nil,
-            Straight = nil,
-            ["Straight Flush"] = nil,
-            ["Three of a Kind"] = nil,
-            ["Two Pair"] = nil,
+            ["Five of a Kind"] = nil, -- TODO
+            Flush = nil, -- TODO
+            ["Flush Five"] = nil, -- TODO
+            ["Flush House"] = nil, -- TODO
+            ["Four of a Kind"] = nil, -- TODO
+            ["Full House"] = nil, -- TODO
+            ["High Card"] = nil, -- TODO
+            Pair = nil, -- TODO
+            ["Royal Flush"] = nil, -- TODO
+            Straight = nil, -- TODO
+            ["Straight Flush"] = nil, -- TODO
+            ["Three of a Kind"] = nil, -- TODO
+            ["Two Pair"] = nil, -- TODO
         },
         quips = {
-            dq_1 = {nil},
-            lq_1 = {nil},
-            lq_10 = {nil},
-            lq_2 = {nil},
-            lq_3 = {nil},
-            lq_4 = {nil},
-            lq_5 = {nil},
-            lq_6 = {nil},
-            lq_7 = {nil},
-            lq_8 = {nil},
-            lq_9 = {nil},
-            wq_1 = {nil},
-            wq_2 = {nil},
-            wq_3 = {nil},
-            wq_4 = {nil},
-            wq_5 = {nil},
-            wq_6 = {nil},
-            wq_7 = {nil},
+            dq_1 = nil, -- TODO
+            lq_1 = nil, -- TODO
+            lq_10 = nil, -- TODO
+            lq_2 = nil, -- TODO
+            lq_3 = nil, -- TODO
+            lq_4 = nil, -- TODO
+            lq_5 = nil, -- TODO
+            lq_6 = nil, -- TODO
+            lq_7 = nil, -- TODO
+            lq_8 = nil, -- TODO
+            lq_9 = nil, -- TODO
+            wq_1 = nil, -- TODO
+            wq_2 = nil, -- TODO
+            wq_3 = nil, -- TODO
+            wq_4 = nil, -- TODO
+            wq_5 = nil, -- TODO
+            wq_6 = nil, -- TODO
+            wq_7 = nil, -- TODO
         },
         ranks = {
             ["10"] = "nanpa luka luka",
@@ -2307,46 +2307,46 @@ return {
             Spades = "ilo ma",
         },
         tutorial = {
-            bb_1 = {nil},
-            bb_2 = {nil},
-            bb_3 = {nil},
-            bb_4 = {nil},
-            bb_5 = {nil},
-            fh_1 = {nil},
-            fh_2 = {nil},
-            fh_3 = {nil},
-            fh_4 = {nil},
-            fh_4_touch = {nil},
-            fh_5 = {nil},
-            fh_5_touch = {nil},
-            fh_6 = {nil},
-            fh_7 = {nil},
-            fh_8 = {nil},
-            s_1 = {nil},
-            s_10 = {nil},
-            s_11 = {nil},
-            s_12 = {nil},
-            s_2 = {nil},
-            s_2_touch = {nil},
-            s_3 = {nil},
-            s_4 = {nil},
-            s_5 = {nil},
-            s_6 = {nil},
-            s_7 = {nil},
-            s_8 = {nil},
-            s_9 = {nil},
-            sb_1 = {nil},
-            sb_2 = {nil},
-            sb_3 = {nil},
-            sb_4 = {nil},
-            sh_1 = {nil},
-            sh_2 = {nil},
-            sh_3 = {nil},
-            sh_3_touch = {nil},
+            bb_1 = nil, -- TODO
+            bb_2 = nil, -- TODO
+            bb_3 = nil, -- TODO
+            bb_4 = nil, -- TODO
+            bb_5 = nil, -- TODO
+            fh_1 = nil, -- TODO
+            fh_2 = nil, -- TODO
+            fh_3 = nil, -- TODO
+            fh_4 = nil, -- TODO
+            fh_4_touch = nil, -- TODO
+            fh_5 = nil, -- TODO
+            fh_5_touch = nil, -- TODO
+            fh_6 = nil, -- TODO
+            fh_7 = nil, -- TODO
+            fh_8 = nil, -- TODO
+            s_1 = nil, -- TODO
+            s_10 = nil, -- TODO
+            s_11 = nil, -- TODO
+            s_12 = nil, -- TODO
+            s_2 = nil, -- TODO
+            s_2_touch = nil, -- TODO
+            s_3 = nil, -- TODO
+            s_4 = nil, -- TODO
+            s_5 = nil, -- TODO
+            s_6 = nil, -- TODO
+            s_7 = nil, -- TODO
+            s_8 = nil, -- TODO
+            s_9 = nil, -- TODO
+            sb_1 = nil, -- TODO
+            sb_2 = nil, -- TODO
+            sb_3 = nil, -- TODO
+            sb_4 = nil, -- TODO
+            sh_1 = nil, -- TODO
+            sh_2 = nil, -- TODO
+            sh_3 = nil, -- TODO
+            sh_3_touch = nil, -- TODO
         },
         v_dictionary = {
-            a_chips = nil,
-            a_chips_minus = nil,
+            a_chips = nil, -- TODO
+            a_chips_minus = nil, -- TODO
             a_hands = "+#1# pali",
             a_handsize = "+#1# pali mute",
             a_handsize_minus = "-#1# pali mute",
@@ -2389,30 +2389,30 @@ return {
             unlocked = "#1#/#2#",
         },
         v_text = {
-            ch_c_all_eternal = {nil},
-            ch_c_chips_dollar_cap = {nil},
-            ch_c_daily = {nil},
-            ch_c_debuff_played_cards = {nil},
-            ch_c_discard_cost = {nil},
-            ch_c_flipped_cards = {nil},
-            ch_c_inflation = {nil},
-            ch_c_minus_hand_size_per_X_dollar = {nil},
-            ch_c_no_extra_hand_money = {nil},
-            ch_c_no_interest = {nil},
-            ch_c_no_reward = {nil},
-            ch_c_no_reward_specific = {nil},
-            ch_c_no_shop_jokers = {nil},
-            ch_c_none = {nil},
-            ch_c_set_eternal_ante = {nil},
-            ch_c_set_joker_slots_ante = {nil},
-            ch_c_set_seed = {nil},
-            ch_m_consumable_slots = {nil},
-            ch_m_discards = {nil},
-            ch_m_dollars = {nil},
-            ch_m_hand_size = {nil},
-            ch_m_hands = {nil},
-            ch_m_joker_slots = {nil},
-            ch_m_none = {nil},
+            ch_c_all_eternal = nil, -- TODO
+            ch_c_chips_dollar_cap = nil, -- TODO
+            ch_c_daily = nil, -- TODO
+            ch_c_debuff_played_cards = nil, -- TODO
+            ch_c_discard_cost = nil, -- TODO
+            ch_c_flipped_cards = nil, -- TODO
+            ch_c_inflation = nil, -- TODO
+            ch_c_minus_hand_size_per_X_dollar = nil, -- TODO
+            ch_c_no_extra_hand_money = nil, -- TODO
+            ch_c_no_interest = nil, -- TODO
+            ch_c_no_reward = nil, -- TODO
+            ch_c_no_reward_specific = nil, -- TODO
+            ch_c_no_shop_jokers = nil, -- TODO
+            ch_c_none = nil, -- TODO
+            ch_c_set_eternal_ante = nil, -- TODO
+            ch_c_set_joker_slots_ante = nil, -- TODO
+            ch_c_set_seed = nil, -- TODO
+            ch_m_consumable_slots = nil, -- TODO
+            ch_m_discards = nil, -- TODO
+            ch_m_dollars = nil, -- TODO
+            ch_m_hand_size = nil, -- TODO
+            ch_m_hands = nil, -- TODO
+            ch_m_joker_slots = nil, -- TODO
+            ch_m_none = nil, -- TODO
         },
     },
 }
