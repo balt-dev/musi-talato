@@ -1849,7 +1849,7 @@ return {
             },
         },
         dictionary = {
-            ["$"] = "", -- TODO
+            ["$"] = "$", -- TODO
             b_FAQ = "sona",
             b_and_use = "anu pali",
             b_back = "pini",
@@ -1887,7 +1887,7 @@ return {
             b_next = ">",
             b_next_round_1 = "utala",
             b_next_round_2 = "kama",
-            b_open = "", -- TODO
+            b_open = "OPEN",
             b_options = "ante",
             b_options_cap = "ANTE",
             b_planet_cards = "lipu suno",
@@ -2067,7 +2067,7 @@ return {
             k_trophy = "ijo pona",
             k_uncommon = "wawa suli",
             k_undisovered = "sona ala",
-            k_unknown = "", -- TODO
+            k_unknown = "???",
             k_unlocked_ex = "sona",
             k_upgrade_ex = "wawa mute",
             k_val_up = "mani mute",
