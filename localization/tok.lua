@@ -64,7 +64,7 @@ return {
             },
             b_challenge = {
                 name = "kulupu utala",
-                text = {"<TODO>"},
+                text = {""},
             },
             b_checkered = {
                 name = "kulupu loje anu pimeja",
@@ -160,7 +160,7 @@ return {
             },
             bl_big = {
                 name = "utala suli",
-                text = {"<TODO>"},
+                text = {""},
             },
             bl_club = {
                 name = "utala pi ilo utala",
@@ -252,7 +252,7 @@ return {
             },
             bl_small = {
                 name = "utala lili",
-                text = {"<TODO>"},
+                text = {""},
             },
             bl_tooth = {
                 name = "utala pi kiwen uta",
@@ -2147,7 +2147,7 @@ return {
                 "sitelen ale",
                 "sitelen ale pona",
             },
-            ph_1_level = "<TODO>",
+            ph_1_level = "wawa mute",
             ph_4_7_of_clubs = "<TODO>",
             ph_alert_debuff_confirm = "<TODO>",
             ph_all_poker_hand = "luka ale",
