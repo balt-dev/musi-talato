@@ -656,7 +656,7 @@ return {
             },
             j_joker = {
                 name = "jan",
-                text = {""}, -- TODO
+                text = {"nanpa mute li mute e {C:red}+#1#{}"}, -- TODO
             },
             j_jolly = {
                 name = "jan pi pilin pona",
