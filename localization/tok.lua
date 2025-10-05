@@ -31,7 +31,6 @@
 -- Edition - namako kule
 -- Enhancement - namako wawa
 -- Seal - namako sitelen
-
 return {
     descriptions = {
         Back = {
@@ -2170,8 +2169,8 @@ return {
             ph_improve_run = "o esun pona a!",
             ph_most_played = "", -- TODO
             ph_mr_bones = "", -- TODO
-            ph_no_boss_active = "utala li ala",
-            ph_no_vouchers = "lipu namako li ale",
+            ph_no_boss_active = "utala li weka",
+            ph_no_vouchers = "lipu namako li weka",
             ph_score_at_least = "nanpa li mute e:",
             ph_score_cards_discarded = "", -- TODO
             ph_score_cards_played = "", -- TODO
@@ -2230,34 +2229,49 @@ return {
             voucher = "lipu namako",
         },
         poker_hand_descriptions = {
-            ["Five of a Kind"] = {""}, -- TODO
-            Flush = {""}, -- TODO
-            ["Flush Five"] = {""}, -- TODO
-            ["Flush House"] = {""}, -- TODO
-            ["Four of a Kind"] = {""}, -- TODO
-            ["Full House"] = {""}, -- TODO
-            ["High Card"] = {""}, -- TODO
-            Pair = {""}, -- TODO
-            ["Royal Flush"] = {""}, -- TODO
-            Straight = {""}, -- TODO
-            ["Straight Flush"] = {""}, -- TODO
-            ["Three of a Kind"] = {""}, -- TODO
-            ["Two Pair"] = {""}, -- TODO
+            ["Five of a Kind"] = {"lipu luka pi nanpa sama"},
+            Flush = {"lipu luka pi kule sama"},
+            ["Flush Five"] = {"lipu lika sama"},
+            ["Flush House"] = {"luka pi nimi tomo anu kule sama"},
+            ["Four of a Kind"] = {"lipu tu tu pi nanpa sama"},
+            ["Full House"] = {
+                'luka pi nimi "kulupu sama pi tu wan"',
+                'anu luka pi nimi "tu pi tu"'
+            },
+            ["High Card"] = {
+                "luka ona li sama ala e luka ante la",
+                "lipu wan li wawa taso"
+            },
+            Pair = {"lipu tu pi nanpa sama"},
+            ["Royal Flush"] = {
+                'tenpo sama la luka pi nimi "nasin"',
+                'anu luka pi nimi "kule sama"'
+            },
+            Straight = {
+                "lipu luka pi nasin nanpa",
+                "(lipu ona li mute wan e lipu ante)"
+            },
+            ["Straight Flush"] = {
+                'tenpo sama la luka pi nimi "nasin"',
+                'anu luka pi nimi "kule sama"'
+            },
+            ["Three of a Kind"] = {"lipu tu wan pi nanpa sama"},
+            ["Two Pair"] = {'luka tu pi nimi "kulupu sama tu"'},
         },
         poker_hands = {
-            ["Five of a Kind"] = "", -- TODO
-            Flush = "", -- TODO
-            ["Flush Five"] = "", -- TODO
-            ["Flush House"] = "", -- TODO
-            ["Four of a Kind"] = "", -- TODO
-            ["Full House"] = "", -- TODO
-            ["High Card"] = "", -- TODO
-            Pair = "", -- TODO
-            ["Royal Flush"] = "", -- TODO
-            Straight = "", -- TODO
-            ["Straight Flush"] = "", -- TODO
-            ["Three of a Kind"] = "", -- TODO
-            ["Two Pair"] = "", -- TODO
+            ["Five of a Kind"] = "kulupu luka",
+            Flush = "kule sama",
+            ["Flush Five"] = "kulupu sama pi luka",
+            ["Flush House"] = "tomo sama",
+            ["Four of a Kind"] = "kulupu sama pi tu tu",
+            ["Full House"] = "tomo",
+            ["High Card"] = "lipu wan",
+            Pair = "kulupu sama tu",
+            ["Royal Flush"] = "nasin wawa pi kule sama",
+            Straight = "nasin",
+            ["Straight Flush"] = "nasin pi kule sama",
+            ["Three of a Kind"] = "kulupu sama pi tu wan",
+            ["Two Pair"] = "tu pi tu",
         },
         quips = {
             dq_1 = {""}, -- TODO
