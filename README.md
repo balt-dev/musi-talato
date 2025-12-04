@@ -36,7 +36,7 @@ ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
 SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 ```
 
-This uses a small amount of code from NativeFS, whose license can be seen here:
+This uses NativeFS, whose license can be seen here:
 ```
 Copyright 2020 megagrump@pm.me
 

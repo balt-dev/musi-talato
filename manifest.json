@@ -1,0 +1,12 @@
+{
+    "name": "TokiPona",
+    "id": "tokipona",
+    "version": "1.0.0",
+    "website_url": "",
+    "description": "Translates Balatro into toki pona.",
+    "main_file": "main.lua",
+    "prefix": "tokipona",
+    "author": ["baltdev"],
+    "priority": 3.8e308,
+    "badge_colour": "606060",
+}

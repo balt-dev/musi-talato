@@ -8,13 +8,54 @@ target = "game.lua"
 position = "before"
 pattern = "for _, v in ipairs(self.FONTS) do"
 payload = """
-_tokipona_init_language(self, "{{lovely_hack:patch_dir}}")
+_tokipona_init_language(self)
+"""
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "main.lua"
+position = "before"
+pattern = "function love.run()"
+payload = """
+_tokipona_load_language("{{lovely_hack:patch_dir}}")
 """
 times = 1
 match_indent = true
 
 [[patches]]
 [patches.copy]
-target = "game.lua"
+target = "main.lua"
 position = "prepend"
-sources = ["game_patch.lua"]
+sources = ["patch.lua"]
+
+# Retrigger color
+
+[[patches]]
+[patches.pattern]
+target = "functions/misc_functions.lua"
+position = "after"
+pattern = "dark_edition = G.C.DARK_EDITION,"
+payload = """
+retrigger = G.C.RETRIGGER,
+"""
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.pattern]
+target = "globals.lua"
+position = "after"
+pattern = "ETERNAL = HEX('c75985'),"
+payload = """
+RETRIGGER = HEX('30c0e0'),
+"""
+times = 1
+match_indent = true
+
+[[patches]]
+[patches.module]
+source = "nativefs.lua"
+before = "main.lua"
+name = "nativefs" 
