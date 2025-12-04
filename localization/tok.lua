@@ -33,7 +33,7 @@
 -- Seal - namako sitelen
 -- Sticker - namako sike
 -- Chance-based - tenpo pi #1# tan #2# la ...
--- While held in hand... - ni li lon ma luka la ...
+-- While held in hand... - ni li lon e ma luka la ...
 -- At end of round... - tenpo pini utala la ...
 -- When scored - tenpo pali ni la
 -- When discarded - tenpo weka ni la
@@ -60,14 +60,13 @@ local loc_table = {
                 name = "nasin pimeja",
                 text = {
                     "poki jan la {C:attention}+#1#{},",
-                    "pali luka la {C:blue}-#2#{}",
+                    "nanpa luka la {C:blue}-#2#{}",
                 },
             },
             b_blue = {
                 name = "nasin laso telo",
                 text = {
-                    "nanpa pi pali luka",
-                    "la {C:blue}+#1#{}",
+                    "nanpa luka la {C:blue}+#1#{}",
                 },
             },
             b_challenge = {
@@ -93,7 +92,7 @@ local loc_table = {
             b_ghost = {
                 name = "nasin ko",
                 text = {
-                    "ma mani la {C:spectral}lipu wawa{} li ken lon,",
+                    "ma esun la {C:spectral}lipu wawa{} li ken lon,",
                     "o open kepeken e lipu wawa {C:spectral,T:c_hex}Hex{}",
                 },
             },
@@ -101,8 +100,8 @@ local loc_table = {
                 name = "nasin laso kasi",
                 text = {
                     "tenpo pini utala la:",
-                    "o lanpan e mani {C:money}#1#{s:0.85} tan {C:blue}pali luka{} lon",
-                    "o lanpan e mani {C:money}#2#{s:0.85} tan {C:red}pali weka{} lon",
+                    "o lanpan e mani {C:money}#1#{s:0.85} tan {C:blue}nanpa luka{} lon",
+                    "o lanpan e mani {C:money}#2#{s:0.85} tan {C:red}nanpa weka{} lon",
                     "o lanpan ala e {C:attention}mani namako",
                 },
             },
@@ -287,7 +286,7 @@ local loc_table = {
             bl_ox = {
                 name = "utala soweli",
                 text = {
-                    "pali luka #1#",
+                    "nasin luka #1#",
                     "la mani weka"
                 },
             },
@@ -325,7 +324,7 @@ local loc_table = {
                 name = "utala pi kiwen uta",
                 text = {
                     "o weka e mani $1",
-                    "tan lipu pi pali luka"
+                    "tan lipu pi luka pali"
                 },
             },
             bl_wall = {
@@ -340,7 +339,10 @@ local loc_table = {
             },
             bl_wheel = {
                 name = "utala sike",
-                text = {"tan 7 lipu li sona ala"},
+                text = {
+                    "lipu #1# tan 7 la",
+                    "ona li sona ala"
+                },
             },
             bl_window = {
                 name = "utala pi kiwen lukin",
@@ -405,7 +407,7 @@ local loc_table = {
                 name = "lipu mani",
                 text = {
                     "tenpo pini utala anu",
-                    "ni li lon ma luka la",
+                    "ni li lon e ma luka la",
                     "ni li pana e mani {C:money}#1#{}"
                 },
             },
@@ -425,7 +427,7 @@ local loc_table = {
             m_steel = {
                 name = "lipu pi kiwen wawa",
                 text = {
-                    "ni li lon ma luka la",
+                    "ni li lon e ma luka la",
                     "ni li pana e mute {X:mult,C:white} X#1# {}"
                 },
             },
@@ -446,7 +448,7 @@ local loc_table = {
                 name = "sike pi nanpa 8",
                 text = {
                     "tenpo {C:green}#1# tan #2#{} la,",
-                    "lipu pi nanpa 8 li pali",
+                    "lipu pi nanpa 8 li pana",
                     "e {C:tarot}lipu nasa{}",
                     "{C:inactive}(tan poki moku li ken jo)"
                 },
@@ -465,7 +467,7 @@ local loc_table = {
                     "ni li pana e mute {X:red,C:white} X#1# {}"
                 },
                 unlock = {
-                    "o pali luka {C:attention,E:1}#1#{}",
+                    "o pali e luka {C:attention,E:1}#1#{}",
                     "{C:inactive}(tenpo ni la {C:attention}#2#{C:inactive})"
                 },
             },
@@ -525,7 +527,7 @@ local loc_table = {
                 text = {
                     "lipu ale pi poki luka",
                     "li {C:spades}ilo ma{} anu {C:clubs}ilo utala{}",
-                    "la pana e mute {X:red,C:white} X#1# {}"
+                    "la ni li pana e mute {X:red,C:white} X#1# {}"
                 },
             },
             j_bloodstone = {
@@ -543,7 +545,7 @@ local loc_table = {
             j_blue_joker = {
                 name = "jan pi laso telo",
                 text = {
-                    "mani kiwen {C:chips}+#1#{} tan",
+                    "ni li pana e mani kiwen {C:chips}+#1#{} tan",
                     "lipu lon pi {C:attention}kulupu lipu",
                     "{C:inactive}(tenpo ni la {C:chips}+#2#{C:inactive})"
                 },
@@ -560,7 +562,7 @@ local loc_table = {
             j_bootstraps = {
                 name = "linja pi len noka",
                 text = {
-                    "li pana e mute {C:mult}+#1#",
+                    "ni li li pana e mute {C:mult}+#1#",
                     "tan mani {C:money}$#2#{} lon",
                     "{C:inactive}(tenpo ni la {C:red}+#3#{C:inactive})"
                 },
@@ -637,8 +639,8 @@ local loc_table = {
             j_card_sharp = {
                 name = "jan pi lipu sona",
                 text = {
-                    "pali luka pi {C:attention}sama",
-                    "{C:attention}luka{} ante utala ni la,",
+                    "luka li {C:attention}sama{} e",
+                    "{C:attention}luka{} ante pi utala ni la,",
                     "ni li pana e mute {X:mult,C:white} X#1# {}",
                 },
             },
@@ -710,7 +712,7 @@ local loc_table = {
                 name = "jan pi sona sona",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e kiwen mani {C:blue}+#1#{}"
+                    "la ni li pana e kiwen mani {C:blue}+#1#{}"
                 },
             },
             j_cloud_9 = {
@@ -734,14 +736,14 @@ local loc_table = {
                 name = "jan pi sona pali",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e kiwen mani {C:blue}+#1#{}"
+                    "la ni li pana e kiwen mani {C:blue}+#1#{}"
                 },
             },
             j_crazy = {
                 name = "jan pi lawa nasa",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {C:red}+#1#{}"
+                    "la ni li pana e mute {C:red}+#1#{}"
                 },
             },
             j_credit_card = {
@@ -763,7 +765,7 @@ local loc_table = {
                 name = "jan pi sona mute ike",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e kiwen mani {C:blue}+#1#{}"
+                    "la ni li pana e kiwen mani {C:blue}+#1#{}"
                 },
             },
             j_diet_cola = {
@@ -799,7 +801,7 @@ local loc_table = {
                 name = "jan pi suwi pona",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {C:red}+#1#{}"
+                    "la ni li pana e mute {C:red}+#1#{}"
                 },
             },
             j_drunkard = {
@@ -812,7 +814,7 @@ local loc_table = {
                 name = "kulupu tu",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {X:mult,C:white} X#1# "
+                    "la ni li pana e mute {X:mult,C:white} X#1# "
                 },
                 unlock = {
                     "pini musi tan ni:",
@@ -855,14 +857,14 @@ local loc_table = {
                 name = "jan pi lawa ala",
                 text = {
                     "weka e lipu jan mute {C:attention}#2{}",
-                    "la pana e mani {C:money}$#1#{}"
+                    "la ni li pana e mani {C:money}$#1#{}"
                 },
             },
             j_family = {
                 name = "kulupu mama",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {X:mult,C:white} X#1# "
+                    "la ni li pana e mute {X:mult,C:white} X#1# "
                 },
                 unlock = {
                     "pini musi tan ni:",
@@ -981,7 +983,7 @@ local loc_table = {
             j_half = {
                 name = "kipisi jan",
                 text = {
-                    "pali luka li jo",
+                    "luka pali li jo",
                     "e nanpa lipu lili anu sama nanpa {C:attention}#2#",
                     "ni li pana e mute {C:mult}+#1#"
                 },
@@ -991,7 +993,7 @@ local loc_table = {
                 text = {
                     "tenpo open {C:attention}kulupu lipu{} la,",
                     "{C:green}#1# tan #2#{} la",
-                    "ni li pali e {C:tarot}lipu nasa",
+                    "ni li pana e {C:tarot}lipu nasa",
                     "{C:inactive}(tan poki moku li ken jo)"
                 },
             },
@@ -1077,7 +1079,7 @@ local loc_table = {
                 name = "jan pi pilin pona",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {C:red}+#1#{}"
+                    "la ni li pana e mute {C:red}+#1#{}"
                 },
             },
             j_juggler = {
@@ -1120,7 +1122,7 @@ local loc_table = {
                 name = "jan pi lawa ike",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {C:red}+#1#{}"
+                    "la ni li pana e mute {C:red}+#1#{}"
                 },
             },
             j_madness = {
@@ -1153,7 +1155,7 @@ local loc_table = {
             j_matador = {
                 name = "jan pi soweli monsuta",
                 text = {
-                    "pali luka pi pali e {C:attention}utala wawa{} la,",
+                    "luka pali pi pali {C:attention}utala wawa{} la,",
                     "ni li pana e mani {C:money}$#1#{}",
                     "{C:inactive,s:0.8}tenpo kama la jan ni li ante{}"
                 },
@@ -1258,7 +1260,7 @@ local loc_table = {
                 name = "kulupu nasin",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {X:mult,C:white} X#1# "
+                    "la ni li pana e mute {X:mult,C:white} X#1# "
                 },
                 unlock = {
                     "pini musi tan ni:",
@@ -1378,83 +1380,159 @@ local loc_table = {
             },
             j_runner = {
                 name = "jan pi tawa tenpo lili",
-                text = {"<TODO>"},
+                text = {
+                    "ni li pana e kiwen mani {C:chips}+#1#",
+                    "luka li jo e {C:attention}nasin{} la",
+                    "ni li lanpan e kiwen mani {C:chips}+#2#",
+                },
             },
             j_satellite = {
                 name = "ilo pi sike ma",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "tenpo utala moli la,",
+                    "ni li pana e mani {C:money}$#1#{}",
+                    "tan {C:planet}lipu ma{} ante",
+                    "pi pali musi ni",
+                    "{C:inactive}(tenpo ni la {C:money}$#2#{C:inactive})"
+                },
+                unlock = {
+                    "o jo e mani {C:money}$#1#{}"
+                },
             },
             j_scary_face = {
                 name = "lawa monsuta",
-                text = {"<TODO>"},
+                text = {
+                    "lipu jan li pana e",
+                    "kiwen mani {C:blue}+#1#"
+                },
             },
             j_scholar = {
                 name = "jan sona",
-                text = {"<TODO>"},
+                text = {
+                    "lipu wan li pana e",
+                    "kiwen mani {C:blue}+#1# en",
+                    "mute {C:red}+#1#"
+                },
             },
             j_seance = {
                 name = "nasin nasa",
-                text = {"<TODO>"},
+                text = {
+                    "luka pali li {C:attention}#1#{} la,",
+                    "ni li pana e {C:spectral}lipu wawa{}",
+                    "{C:inactive}(tan poki ona li ken jo)"
+                },
             },
             j_seeing_double = {
                 name = "lukin tu",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "luka li jo e lipu pi kule {C:clubs}ilo utala",
+                    "en lipu pi kule {C:attention}ante la,",
+                    "ni li pana e mute {X:mult,C:white}X#1#{}"
+                },
+                unlock = {
+                    "o pali e luka pi",
+                    "jo e {C:attention}#1#"
+                },
             },
             j_selzer = {
                 name = "telo ko",
-                text = {"<TODO>"},
+                text = {
+                    "lipu ale li pali {C:retrigger}tenpo sin;",
+                    "kepeken luka {C:attention}#1#{} kama"
+                },
             },
             j_shoot_the_moon = {
                 name = "o alasa e mun",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "lipu pi {C:attention}jan meli{}",
+                    "li pana e mute {C:mult}+#1#"
+                },
+                unlock = {
+                    "tenpo utala wan la,",
+                    "o pali e lipu ale pi {C:hearts}sijelo pilin",
+                    "tan kulupu sina"
+                },
             },
             j_shortcut = {
                 name = "nasin pi tenpo lili",
-                text = {"<TODO>"},
+                text = {
+                    "ken pali e luka {C:attention}nasin{}",
+                    "kepeken lupa pi nanpa {C:attention}wan",
+                    "{C:inactive}(9, 8, 6, 5, 3)"
+                },
             },
             j_sixth_sense = {
                 name = "pilin namako",
-                text = {"<TODO>"},
+                text = {
+                    "luka wan pi utala li jo e lipu {C:attention}luka wan{}",
+                    "la ni li pakala e lipu ona",
+                    "en pana e {C:spectral}lipu wawa",
+                    "{C:inactive}(tan poki ona li ken jo)"
+                },
             },
             j_sly = {
                 name = "jan pi sona pimeja",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e kiwen mani {C:blue}+#1#{}"
+                    "la ni li pana e kiwen mani {C:blue}+#1#{}"
                 },
             },
             j_smeared = {
                 name = "jan pi pakala kule",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "kule {C:hearts}sijelo pilin{} en",
+                    "kule {C:diamonds}kiwen mani{} li sama",
+                    "kule {C:spades}ilo ma{} en",
+                    "kule {C:clubs}ilo utala{} li sama"
+                },
+                unlock = {
+                    "o jo e lipu {C:attention}#1#",
+                },
             },
             j_smiley = {
                 name = "lawa pona",
-                text = {"<TODO>"},
+                text = {
+                    "lipu jan li pana e mute {C:mult}+#1#"
+                },
             },
             j_sock_and_buskin = {
                 name = "lawa tu",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "lipu jan li pali {C:retrigger}tenpo sin{}"
+                },
+                unlock = {
+                    "o pali e lipu jan mute {C:attention}#1#",
+                    "{C:inactive}(tenpo ni la {C:attention}#1#{C:inactive})"
+                },
             },
             j_space = {
-                name = "jan pi ma sewi mute",
-                text = {"<TODO>"},
+                name = "jan pi ma sewi",
+                text = {
+                    "tenpo {C:green}#1# tan #2#{} la",
+                    "ni li pana wawa tawa e {C:attention}luka pali",
+                },
             },
             j_splash = {
                 name = "kalama telo",
-                text = {"<TODO>"},
+                text = {
+                    "lipu pali ale li {C:attention}pali"
+                },
             },
             j_square = {
                 name = "jan leko",
-                text = {"<TODO>"},
+                text = {
+                    "luka pali li jo e lipu {C:attention}4{} la",
+                    "ni li lanpan e kiwen mani {C:chips}+#2#{}",
+                    "{C:inactive}(tenpo ni la {C:chips}#1#{C:inactive})"
+                },
             },
             j_steel_joker = {
                 name = "jan pi kiwen wawa",
-                text = {"<TODO>"},
+                text = {
+                    "ni li lanpan e mute {X:mult,C:white}X#1#{}",
+                    "tan {C:attention}lipu pi kiwen wawa{} lon",
+                    "{C:inactive}(tenpo ni la {X:mult,C:white}X#2#{C:inactive})"
+                },
             },
             j_stencil = {
                 name = "lipu pi pali jan",
@@ -1466,53 +1544,102 @@ local loc_table = {
             },
             j_stone = {
                 name = "jan kiwen",
-                text = {"<TODO>"},
+                text = {
+                    "ni li lanpan e kiwen mani {C:chips}+#1#{}",
+                    "tan {C:attention}lipu kiwen{} lon",
+                    "{C:inactive}(tenpo ni la {C:chips}+#2#{C:inactive})"
+                },
             },
             j_stuntman = {
                 name = "jan pi tawa mute",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "ni li pana e kiwen mani {C:chips}+#1#{}",
+                    "ni li weka e poki luka {C:attention}-#1#{}",
+                },
+                unlock = {
+                    "o lanpan e nanpa pona {C:attention}#1#",
+                    "kepeken luka wan"
+                },
             },
             j_supernova = {
-                name = "kalama mute mute mute",
-                text = {"<TODO>"},
+                name = "kalama mute",
+                text = {
+                    "ni li pana e {C:mult}mute{} tan",
+                    "wawa pi luka pali"
+                },
             },
             j_superposition = {
                 name = "ma pi sona ala",
-                text = {"<TODO>"},
+                text = {
+                    "luka pali li jo e {C:attention}lipu wan",
+                    "anu luka {C:attention}nasin{} la",
+                    "ni li pana e {C:spectral}lipu wawa",
+                    "{C:inactive}(tan poki ona li ken jo)"
+                },
             },
             j_swashbuckler = {
                 name = "jan pi mani ike",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "ni li pana e {C:mult}mute{} tan",
+                    "nanpa esun pi jan ale",
+                    "en nanpa esun lipu moku ale"
+                },
+                unlock = {
+                    "o esun e jan mute {C:attention}#1#{}",
+                    "{C:inactive}(tenpo ni la {C:attention}#1#{C:inactive})"
+                },
             },
             j_throwback = {
                 name = "tenpo pini",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "ni li pana e mute {X:mult,C:white}X#1#{} tan",
+                    "utala weka pi musi ni",
+                    "{C:inactive}(tenpo ni la {X:red,C:white} X#3# {C:inactive})"
+                },
+                unlock = {
+                    "o open e musi majuna"
+                },
             },
             j_ticket = {
                 name = "lipu pi mani mute",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "tenpo pali la",
+                    "lipu mani li pana e mani {C:money}$#1#"
+                },
+                unlock = {
+                    "o pali e luka pi",
+                    "jo e lipu mani 5"
+                },
             },
             j_to_the_moon = {
                 name = "tawa mun",
-                text = {"<TODO>"},
+                text = {
+                    "ni li pana e mani namako",
+                    "{C:money}$#1#{} tan mani {C:money}$5{} lon",
+                },
             },
             j_todo_list = {
                 name = "lipu pi sona pali",
-                text = {"<TODO>"},
+                text = {
+                    "luka pali li {C:attention}#2#{}",
+                    "la ni li pana e mani {C:money}$#1#",
+                    "tenpo utala pini la",
+                    "luka ni li ante"
+                },
             },
             j_trading = {
                 name = "lipu musi",
-                text = {"<TODO>"},
+                text = {
+                    "pali weka li jo e lipu mute {C:attention}wan",
+                    "la pakala e lipu ona",
+                    "en pana e mani {C:money}$#1#"
+                },
             },
             j_tribe = {
                 name = "kulupu utala",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {X:mult,C:white} X#1# "
+                    "la ni li pana e mute {X:mult,C:white} X#1# "
                 },
                 unlock = {
                     "pini musi tan ni:",
@@ -1521,14 +1648,17 @@ local loc_table = {
             },
             j_triboulet = {
                 name = "jan Triboulet",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "lipu mije anu lipu meli",
+                    "li pana e mute {X:mult,C:white}X#1#"
+                },
+                unlock = {"?????"},
             },
             j_trio = {
                 name = "kulupu pi nanpa tu wan",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {X:mult,C:white} X#1# "
+                    "la ni li pana e mute {X:mult,C:white} X#1# "
                 },
                 unlock = {
                     "pini musi tan ni:",
@@ -1537,39 +1667,73 @@ local loc_table = {
             },
             j_troubadour = {
                 name = "jan pi pali pilin pona",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "ni li pana e poki luka {C:attention}+#1#{}",
+                    "ni li weka e nanpa luka {C:blue}-#1#{}",
+                },
+                unlock = {
+                    "o pini e nasin utala {C:attention}#1#",
+                    "kepeken luka wan"
+                },
             },
             j_trousers = {
                 name = "len noka sin",
-                text = {"<TODO>"},
+                text = {
+                    "ni li pana e mute {C:mult}+#3#{}",
+                    "luka li jo e luka {C:attention}#2# la",
+                    "ni li lanpan e mute {C:mult}+#1#{}",
+                },
             },
             j_turtle_bean = {
                 name = "moku lili",
-                text = {"<TODO>"},
+                text = {
+                    "ni li pana e poki luka {C:attention}+#1#{}",
+                    "tenpo utala moli la",
+                    "poki luka li weka tan {C:attention}#2#"
+                },
             },
             j_vagabond = {
                 name = "jan pi mani ala",
-                text = {"<TODO>"},
+                text = {
+                    "mani li lili e {C:attention}$#1#{} la",
+                    "ni li pana e {C:tarot}lipu nasa",
+                    "{C:inactive}(tan poki ona li ken jo)"
+                },
             },
             j_vampire = {
                 name = "jan pi moku telo sijelo",
-                text = {"<TODO>"},
+                text = {
+                    "ni li pana e mute {X:mult,C:white}X#1#{};",
+                    "ni li lanpan e mute {X:mult,C:white}X#1#{}",
+                    "tan lipu pali pi {C:attention}kule wawa{},",
+                    "kin ni li weka e kule wawa pi lipu ona"
+                },
             },
             j_walkie_talkie = {
                 name = "ilo toki",
-                text = {"<TODO>"},
+                text = {
+                    "lipu pi nanpa {C:attention}luka luka{} anu {C:attention}tu tu",
+                    "li pana e kiwen mani {C:chips}+#1#{}",
+                    "en mute {C:mult}+#1#{}",
+                },
             },
             j_wee = {
                 name = "jan lili",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "ni li pana e kiwen mani {C:chips}+#1#{};",
+                    "tenpo pali e {C:attention}lipu pi nanpa tu{} la,",
+                    "ni li lanpan e mute {C:chips}+#2#{}",
+                },
+                unlock = {
+                    "o pini e musi kepeken",
+                    "nanpa utala lili {C:attention}#1#"
+                },
             },
             j_wily = {
                 name = "jan pi sona nasin",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e kiwen mani {C:blue}+#1#{}"
+                    "la ni li pana e kiwen mani {C:blue}+#1#{}"
                 },
             },
             j_wrathful_joker = {
@@ -1581,14 +1745,19 @@ local loc_table = {
             },
             j_yorick = {
                 name = "jan Yorick",
-                text = {"<TODO>"},
-                unlock = {"<TODO>"},
+                text = {
+                    "ni li pana e mute {X:mult,C:white}X#4#{};",
+                    "pali weka lipu mute {C:attention}#2#{} la,",
+                    "ni li lanpan e mute {X:mult,C:white}X#1#{};",
+                    "{C:inactive}(tenpo ni la {C:attention}#3#{C:inactive})"
+                },
+                unlock = {"?????"},
             },
             j_zany = {
                 name = "jan pi pali nasa",
                 text = {
                     "luka pali li jo e {C:attention}#2#",
-                    "la pana e mute {C:red}+#1#{}"
+                    "la ni li pana e mute {C:red}+#1#{}"
                 },
             },
         },
@@ -1606,7 +1775,7 @@ local loc_table = {
                 text = {
                     "tenpo utala pini la,",
                     "lipu ni li lon tan poki luka la",
-                    "pali e {C:planet}lipu mun{} pi {C:attention}luka pini{}",
+                    "ni li pana e {C:planet}lipu mun{} pi {C:attention}luka pini{}",
                     "{C:inactive}(tan poki ona li ken jo)"
                 },
             },
@@ -1625,7 +1794,7 @@ local loc_table = {
             },
             card_extra_chips = {
                 text = {
-                    "kiwen mani namako la {C:chips}+#1#{}",
+                    "kiwen mani namako la {C:chips}#1#{}",
                 },
             },
             challenge_locked = {
@@ -1798,7 +1967,7 @@ local loc_table = {
                 name = "sike loje laso",
                 text = {
                     "pali weka lipu ni la,",
-                    "pali e {C:tarot}lipu nasa{}",
+                    "ni li pana e {C:tarot}lipu nasa{}",
                     "{C:inactive}(tan poki moku li ken jo)"
                 },
             },
@@ -1909,52 +2078,119 @@ local loc_table = {
         },
         Planet = {
             c_ceres = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Ceres",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_earth = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Earth",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_eris = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Eris",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_jupiter = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Jupiter",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_mars = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Mars",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka {C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_mercury = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Mercury",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka {C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_neptune = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Neptune",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_planet_x = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun X",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_pluto = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Pluto",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka {C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_saturn = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Saturn",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka {C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_uranus = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Uranus",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka",
+                    "{C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
             c_venus = {
-                name = "<TODO>",
-                text = {"<TODO>"},
+                name = "mun Venus",
+                text = {
+                    "{S:0.8}({S:0.8,V:1}wawa #1#{S:0.8}){}",
+                    "pana ni tawa nasin luka {C:attention}#2#{}:",
+                    "mute {C:mult}+#3#{}",
+                    "kiwen mani {C:chips}+#4#{}",
+                },
             },
         },
         Spectral = {
@@ -2563,7 +2799,7 @@ local loc_table = {
             b_discard = "weka",
             b_editions = "namako kule",
             b_endless = "nasin pi pini ala",
-            b_enhanced_cards = "lipu pi namako wawa",
+            b_enhanced_cards = "namako wawa",
             b_full_deck = "kulupu ale",
             b_high_contrast_cards = "lipu pi lukin pona",
             b_how_to_play = "sona",
@@ -2650,7 +2886,7 @@ local loc_table = {
             k_again_ex = "sin",
             k_all_hands = "luka ale",
             k_also_applied = "lon kin",
-            k_ante = "nanpa utala",
+            k_ante = "kulupu utala",
             k_ante_cap = "UTALA",
             k_arcana_pack = "kulupu pi lipu nasa",
             k_balanced = "sama",
@@ -2705,7 +2941,8 @@ local loc_table = {
             k_level_prefix = "wawa ",
             k_level_up_ex = "wawa tawa mute",
             k_locked = "ken ala",
-            k_lower_score = "pi utala ni",
+            k_upper_score = "nanpa",
+            k_lower_score = "pona",
             k_lvl = "wawa ",
             k_melted_ex = "seli",
             k_money = "mani",
@@ -2739,7 +2976,7 @@ local loc_table = {
             k_reroll = "sin",
             k_reset = "sin",
             k_reward = "mani",
-            k_round = "nanpa pona",
+            k_round = "nanpa utala",
             k_safe_ex = "lon",
             k_saved_ex = "moli ala",
             k_seed = "mama",
@@ -3245,10 +3482,10 @@ local loc_table = {
             ch_c_set_joker_slots_ante = {"tenpo utala {C:attention}#1#{} pini la poki jan li {C:attention}weka"},
             ch_c_set_seed = {"{C:attention}musi wan{} tan nanpa mama ni: {C:inactive}{Hidden}"},
             ch_m_consumable_slots = {"poki moku li {C:attention}#1#{}"},
-            ch_m_discards = {"pali weka li {C:red}#1#{}"},
+            ch_m_discards = {"nanpa weka li {C:red}#1#{}"},
             ch_m_dollars = {"open tan mani {C:money}$#1#"},
             ch_m_hand_size = {"poki luka li {C:attention}#1#"},
-            ch_m_hands = {"pali luka li {C:blue}#1#"},
+            ch_m_hands = {"nanpa luka li {C:blue}#1#"},
             ch_m_joker_slots = {"poki jan li {C:attention}#1#"},
             ch_m_none = {"{C:inactive}ala"},
         },

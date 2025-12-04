@@ -20,6 +20,7 @@ function _tokipona_init_language(g)
         label = "toki pona",
         key = "tok",
         beta = true,
+        button = "lipu toki",
         warning = {"toki ni li sin mute a", "sina wile pana pona la o pali e nena toki", "o pali sin la ni li pona"},
     }
 end

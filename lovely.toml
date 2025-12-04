@@ -54,8 +54,23 @@ RETRIGGER = HEX('30c0e0'),
 times = 1
 match_indent = true
 
+# nativefs
+
 [[patches]]
 [patches.module]
 source = "nativefs.lua"
 before = "main.lua"
 name = "nativefs" 
+
+# round score fix
+
+[[patches]]
+[patches.pattern]
+target = "functions/UI_definitions.lua"
+position = "at"
+pattern = "{n=G.UIT.T, config={text = localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}"
+payload = """
+{n=G.UIT.T, config={text = (localize('k_upper_score') ~= "ERROR" and localize('k_upper_score')) or localize('k_round'), scale = 0.42, colour = G.C.UI.TEXT_LIGHT, shadow = true}}
+"""
+times = 1
+match_indent = true
