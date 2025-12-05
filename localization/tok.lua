@@ -93,7 +93,7 @@ local loc_table = {
                 name = "nasin ko",
                 text = {
                     "ma esun la {C:spectral}lipu wawa{} li ken lon,",
-                    "o open kepeken e lipu wawa {C:spectral,T:c_hex}Hex{}",
+                    "o open kepeken e lipu wawa {C:spectral,T:c_hex}usawi{}",
                 },
             },
             b_green = {
@@ -155,8 +155,8 @@ local loc_table = {
                 text = {
                     "tenpo open la",
                     "jo e lipu namako {C:tarot,T:v_tarot_merchant}#1#{}",
-                    "anu lipu namako {C:planet,T:v_planet_merchant}#2#{},",
-                    "anu lipu namako {C:attention,T:v_overstock_norm}#3#",
+                    "en lipu namako {C:planet,T:v_planet_merchant}#2#{},",
+                    "en lipu namako {C:attention,T:v_overstock_norm}#3#",
                 },
             },
         },
@@ -2390,7 +2390,7 @@ local loc_table = {
             },
             stake_green = {
                 name = "utala pi laso kasi",
-                text = {"utala mute la nanpa wile li mute mute"},
+                text = {"nanpa utala li mute mute"},
             },
             stake_orange = {
                 name = "utala pi loje jelo",
@@ -2398,7 +2398,7 @@ local loc_table = {
             },
             stake_purple = {
                 name = "utala pi loje laso",
-                text = {"utala mute la nanpa wile li mute mute"},
+                text = {"nanpa utala li mute mute"},
             },
             stake_red = {
                 name = "utala loje",
