@@ -2464,7 +2464,7 @@ local loc_table = {
                 },
             },
             tag_garbage = {
-                name = "nena ike",
+                name = "nena jaki",
                 text = {
                     "pana e mani {C:money}$#1#{}",
                     "tan {C:red}weka{} lon pi musi ni",
