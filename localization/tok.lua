@@ -3210,7 +3210,7 @@ local loc_table = {
             b_seals = "namako sitelen",
             b_seed = "nanpa mama",
             b_select = "PALI",
-            b_sell = "PAKALA MANI",
+            b_sell = "ESUN",
             b_set_CRT = "lukin majuna",
             b_set_CRT_bloom = "suno pi lukin majuna",
             b_set_apply = "pini",
@@ -3444,7 +3444,7 @@ local loc_table = {
                 "pali",
             },
             ml_sell_target = {
-                "pakala",
+                "esun",
             },
             ml_shadow_opt = {
                 "wile",
