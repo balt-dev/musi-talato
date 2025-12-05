@@ -100,8 +100,8 @@ local loc_table = {
                 name = "nasin laso kasi",
                 text = {
                     "tenpo pini utala la:",
-                    "o lanpan e mani {C:money}#1#{s:0.85} tan {C:blue}nanpa luka{} lon",
-                    "o lanpan e mani {C:money}#2#{s:0.85} tan {C:red}nanpa weka{} lon",
+                    "o lanpan e mani {C:money}$#1#{} tan {C:blue}nanpa luka{} lon",
+                    "o lanpan e mani {C:money}$#2#{} tan {C:red}nanpa weka{} lon",
                     "o lanpan ala e {C:attention}mani namako",
                 },
             },
@@ -140,8 +140,7 @@ local loc_table = {
             b_red = {
                 name = "nasin loje",
                 text = {
-                    "nanpa pi pali weka",
-                    "la {C:red}+#1#{}",
+                    "nanpa weka la {C:red}+#1#{}",
                 },
             },
             b_yellow = {
