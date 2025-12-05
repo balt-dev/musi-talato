@@ -3,7 +3,7 @@
     "id": "tokipona",
     "version": "1.0.0",
     "website_url": "",
-    "description": "Translates Balatro into toki pona.",
+    "description": "Translates Balatro into toki pona. If you have any feedback or suggestions, contact me on Discord at @baltdev.",
     "main_file": "main.lua",
     "prefix": "tokipona",
     "author": ["baltdev"],

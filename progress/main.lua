@@ -27,6 +27,6 @@ walk_tree(tree, "root")
 table.sort(todo_string_keys)
 local percentage = completed_strings / total_strings * 100
 print(("Completed: %.2f%% (%d/%d)"):format(percentage, completed_strings, total_strings))
--- print("TODO keys:\n" .. table.concat(todo_string_keys, "\n"))
+print("TODO keys:\n" .. table.concat(todo_string_keys, "\n"))
 
 love.event.quit()
