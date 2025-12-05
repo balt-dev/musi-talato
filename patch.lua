@@ -24,12 +24,3 @@ function _tokipona_init_language(g)
         warning = {"toki ni li sin mute a", "sina wile pana pona la o pali e nena toki", "o pali sin la ni li pona"},
     }
 end
-
-if SMODS then
-    SMODS.Atlas {
-        key = "modicon",
-        path = "icon.png",
-        px = 34,
-        py = 34,
-    }
-end

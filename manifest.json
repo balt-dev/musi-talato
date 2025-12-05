@@ -7,6 +7,6 @@
     "main_file": "main.lua",
     "prefix": "tokipona",
     "author": ["baltdev"],
-    "priority": 3.8e308,
+    "priority": 0,
     "badge_colour": "606060",
 }
