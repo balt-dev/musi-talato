@@ -18,9 +18,9 @@ match_indent = true
 target = "main.lua"
 position = "before"
 pattern = "function love.run()"
-payload = """
+payload = '''
 _tokipona_load_language("{{lovely_hack:patch_dir}}")
-"""
+'''
 times = 1
 match_indent = true
 
